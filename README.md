@@ -20,6 +20,11 @@ or add
 "matthew-p/yii2-models-sorting": "@dev"
 ```
 
+and add dependency below, only if you will using `\MP\ARSorting\ARSortColumn` class
+```
+"yiisoft/yii2-jui": "@dev"
+```
+
 to the require section of your `composer.json` file.
 
 Usage
